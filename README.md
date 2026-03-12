@@ -6,12 +6,13 @@ Personal AI tool configurations — skills, hooks, permissions, and instructions
 
 ```
 claude/
-├── CLAUDE.md           # Global instructions loaded by Claude Code
-├── RTK.md              # RTK (Rust Token Killer) docs and usage
-├── settings.json       # Hooks configuration
+├── CLAUDE.md               # Global instructions loaded by Claude Code
+├── RTK.md                  # RTK (Rust Token Killer) docs and usage
+├── settings.json           # Hooks configuration
+├── statusline-command.sh   # Status line script: model, context window bar, usage %
 └── hooks/
-    ├── rtk-rewrite.sh  # PreToolUse hook: rewrites bash commands through RTK for token savings
-    └── record-prompts.sh  # UserPromptSubmit hook: logs prompts to daily markdown file on Desktop
+    ├── rtk-rewrite.sh      # PreToolUse hook: rewrites bash commands through RTK for token savings
+    └── record-prompts.sh   # UserPromptSubmit hook: logs prompts to daily markdown file on Desktop
 ```
 
 ## Setup
@@ -25,7 +26,8 @@ cp claude/CLAUDE.md ~/.claude/CLAUDE.md
 cp claude/RTK.md ~/.claude/RTK.md
 cp claude/settings.json ~/.claude/settings.json
 cp claude/hooks/*.sh ~/.claude/hooks/
-chmod +x ~/.claude/hooks/*.sh
+cp claude/statusline-command.sh ~/.claude/statusline-command.sh
+chmod +x ~/.claude/hooks/*.sh ~/.claude/statusline-command.sh
 ```
 
 ### Dependencies
