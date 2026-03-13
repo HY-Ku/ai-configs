@@ -1,11 +1,15 @@
 {
+  "statusLine": {
+    "type": "command",
+    "command": "/Users/jason.ku/.claude/statusline-command.sh"
+  },
   "hooks": {
     "UserPromptSubmit": [
       {
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/jasonku/.claude/hooks/record-prompts.sh"
+            "command": "/Users/jason.ku/.claude/hooks/record-prompts.sh"
           }
         ]
       }
@@ -16,7 +20,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/jasonku/.claude/hooks/rtk-rewrite.sh"
+            "command": "/Users/jason.ku/.claude/hooks/rtk-rewrite.sh"
           }
         ]
       }
