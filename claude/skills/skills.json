@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "skills": {
+    "prd": {
+      "source": "github/awesome-copilot",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/prd/SKILL.md"
+    },
+    "breakdown-feature-prd": {
+      "source": "github/awesome-copilot",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/breakdown-feature-prd/SKILL.md"
+    },
+    "git-commit": {
+      "source": "github/awesome-copilot",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/git-commit/SKILL.md"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md"
+    },
+    "frontend-code-review": {
+      "source": "langgenius/dify",
+      "sourceUrl": "https://github.com/langgenius/dify.git",
+      "skillPath": ".agents/skills/frontend-code-review/SKILL.md"
+    },
+    "frontend-testing": {
+      "source": "langgenius/dify",
+      "sourceUrl": "https://github.com/langgenius/dify.git",
+      "skillPath": ".agents/skills/frontend-testing/SKILL.md"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/composition-patterns/SKILL.md"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-plans/SKILL.md"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/systematic-debugging/SKILL.md"
+    }
+  }
+}
